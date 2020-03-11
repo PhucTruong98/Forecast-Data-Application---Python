@@ -3,7 +3,14 @@ This web-scraping application utilizes selenium, requests, tkinter to create an 
 Video: https://www.youtube.com/watch?v=KQjXdQZ2hEo&t=2s
 
 
-Ex: 
+Example: 
+
 ![](images/fcd.png)
+
+Example:
 ![](images/fcd2.png)
+
+Example:
 ![](images/fcd3.png)
+
+
