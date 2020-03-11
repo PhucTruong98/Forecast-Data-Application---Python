@@ -1,10 +1,11 @@
 # Forecast-Data-Application---Python
 This web-scraping application utilizes selenium, requests, tkinter to create an interactive program that allow users to collect precipitation data from various locations at once.
 Video: https://www.youtube.com/watch?v=KQjXdQZ2hEo&t=2s
-Introduction
+
+### Introduction
 Welcome to LACO Forecast Application, this program will help you collect weather data
 automatically to help with Storm Water Inspection.
-How It Works:
+- How It Works:
 The program navigates to each site’s predefined URL, open that web site and automatically
 locates the weather data such as chance of rain, amount of rain, recorded rain fall. It then
 calculates and output the desired data that will be Copy and Pasted into Storm Water Excel
@@ -31,7 +32,7 @@ The program will automatically detects which type of time table the site fall in
 accordingly. Ex:
 https://www.wrh.noaa.gov/mesowest/timeseries.php?sid=LAYC1&amp;table=1&amp;banner=off
 
-II. First Time Configuration
+### II. First Time Configuration
 For your first time using the application, there are a couple settings you need to configure
 1. Open “LACO Forecast Data” folder located somewhere on your terminal server desktop
 2. Right-click on “gui.py” located in this folder, select “Edit with Notepad++”, a new window
@@ -48,14 +49,14 @@ C:\Users\administrator.LACO\AppData\Local\Programs\Python\Python36\Lib\idlelib\i
 
 8. The program is now configured!!! Congrats. Now move on to “How To Launch The Program”
 Section
-III. How To Launch The Program
+### III. How To Launch The Program
 1. Open Terminal Server and log in using your LACO account
 2. Open “LACO Forecast Data” folder located somewhere on your desktop
 3. Right click on “launch_here” file in the folder. Select “Edit with Notepad++”
 4. With Notepad++ opened, press “Ctrl” + “Alt” + “P” (or whatever key combination you saved
 when first configure Notepad++)
 5. A new window will appear, press “F5” to launch the program
-IV. Features
+### IV. Features
 
 A. Getting weather data
 - Getting weather data is easy. Simply select the sites you want to get data for in the
@@ -118,7 +119,7 @@ such as Forecast URL, Recorded Rain URL, what type of time table does a site hav
 (Precip Accumulative, 1 Hour Precip, 24 Hour Precip), and how did the program
 calculate rain data.
 
-V. Trouble Shooting
+### V. Trouble Shooting
 A. The Program Doesn’t Return All Site Data
 Sometimes the web server of NOAA fails to deliver the whole html file which can cause
 the program to be interrupted. Simply wait a couple minutes and try again. If the
@@ -147,6 +148,6 @@ in Notepad++ is launch_here.py
 - Please do not make any changes to the code and save it. It will stop the program
 from working properly
 
-VI. Contact Info
+### VI. Contact Info
 Cell: (707)-391-3992
 Email: phucthanhtruong0405@gmail.com
